@@ -83,6 +83,15 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+    
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+assets:
+  - /assets/main.scss
+
 
 defaults:
   # _posts
@@ -109,7 +118,7 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
 
 
